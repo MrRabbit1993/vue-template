@@ -1,6 +1,7 @@
 {
   "files": [],
   "references": [
+    // 指定工程引用依赖，** 表示任意目录， * 表示任意文件
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
   ]
