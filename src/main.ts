@@ -1,5 +1,5 @@
-import { createApp } from 'vue'
-import './style.css'
-import App from './App.vue'
-
-createApp(App).mount('#app')
+import '@/styles/index'
+import '@/core/index'
+import "./style.css"
+import render from '@/core/render'
+render({ container: '#app' })
